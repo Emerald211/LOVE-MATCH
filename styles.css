@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/paper-art-with-heart-on-pink-background-love-concept-design-for-happy-mother-s-day-valentine-s-day-birthday-day-banner-and-greeting-template-design-free-vector.jpg");
+}
+
+#box {
+    /* width: 40vw; */
+    padding: 30px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+  
+} 
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#box input {
+    width: 60%;
+    height: 40px;
+    margin: 5px;
+}
+
+#button {
+    width: 60%;
+    background-color: palevioletred;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    
+}
+
+#progress {
+    width: 60%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:600px) {
+    #button {
+        width: 80%;
+    }
+
+    #box input {
+        width: 80%;
+    }
+
+    #progress {
+        width: 80%;
+    }
+
+    #box {
+        height: 60vh;
+        margin: 20px;
+        justify-content: center;
+    }
+}
